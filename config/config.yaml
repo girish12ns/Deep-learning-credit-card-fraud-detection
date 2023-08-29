@@ -1,0 +1,7 @@
+Artifacts : artifacts
+
+Data_ingestion : 
+   root_dir :  artifacts/data_ingestion
+   source_dir : DATA_BOOK\DATA\CREDIT_CARD_DETECTION.csv
+   train_dir :  artifacts/data_ingestion/train.csv
+   test_dir :   artifacts/data_ingestion/test.csv
