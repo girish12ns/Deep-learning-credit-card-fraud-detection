@@ -5,3 +5,11 @@ Data_ingestion :
    source_dir : DATA_BOOK\DATA\CREDIT_CARD_DETECTION.csv
    train_dir :  artifacts/data_ingestion/train.csv
    test_dir :   artifacts/data_ingestion/test.csv
+
+data_transformation :
+    root_dir : artifacts/data_transformations
+    processor_dir : artifacts/data_transformations/preprocessor.pkl
+
+Model_trainer:
+    root_dir : artifacts/model_trainer
+    model_dir : artifacts/model_trainer/model.pkl

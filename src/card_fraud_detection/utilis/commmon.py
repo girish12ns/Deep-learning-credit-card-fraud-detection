@@ -25,3 +25,12 @@ def read_yaml(filename)->ConfigBox:
     with open(filename,'r') as f:
         content=yaml.safe_load(f)
     return ConfigBox(content)
+
+try:
+    def save_model(filepath,obj):
+        with open(filepath,'wb') as f:
+            dill.dump(obj,f)
+except Exception as e:
+    raise e
+
+
