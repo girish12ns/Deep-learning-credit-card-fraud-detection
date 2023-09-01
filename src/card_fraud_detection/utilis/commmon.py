@@ -33,4 +33,12 @@ try:
 except Exception as e:
     raise e
 
+try:
+    def load_model(filepath):
+        with open(filepath,'rb') as f:
+            content=dill.load(f)
+        return content
+except Exception as e:
+    raise e
+
 

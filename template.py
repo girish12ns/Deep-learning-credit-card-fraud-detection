@@ -25,7 +25,9 @@ list_files=[
     "params.yaml",
     "setup.py",
     "research/trails.ipynb",
-    "main.py"
+    "main.py",
+    "templates/index.html",
+    "templates/homepage.html"
 ]
 
 for filename in list_files:
